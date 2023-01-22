@@ -1,4 +1,7 @@
-/* La fonction principale du programme. Il utilise une boucle infinie pour mettre à jour les LEDs dans un ordre de défilement en boucle. Il utilise une variable ledX pour stocker le chemin d'accès au fichier de contrôle de chaque LED, et un pointeur de fichier fid pour accéder à ces fichiers. Il utilise les fonctions sprintf, fopen, fputs et fclose pour mettre à jour l'état des LEDs en utilisant les fichiers de contrôle dans le système de fichiers. Il utilise également la fonction sleep pour temporiser entre les mises à jour des LEDs. */
+/* La fonction principale du programme. Il utilise une boucle infinie pour mettre à jour les LEDs dans un ordre de défilement en boucle. 
+Il utilise une variable ledX pour stocker le chemin d'accès au fichier de contrôle de chaque LED, et un pointeur de fichier fid pour accéder à ces fichiers. 
+Il utilise les fonctions sprintf, fopen, fputs et fclose pour mettre à jour l'état des LEDs en utilisant les fichiers de contrôle dans le système de fichiers. 
+Il utilise également la fonction sleep pour temporiser entre les mises à jour des LEDs. */
 
 #include "stdlib.h"
 #include "string.h"
@@ -9,7 +12,7 @@
 int main(void){
 	char ledX[sizeof("/sys/class/leds/fpga_led/i/brightness")];
 	FILE* fid=NULL;
-
+//dans cette boucle while nous avons mis au point un chanillard qui va de drtoite à gauche sans s'arrêter
 while(1){
 	for(int i=0;i<10;i++){
 		sprintf(ledX,"/sys/class/leds/fpga_led%i/brightness",i);
