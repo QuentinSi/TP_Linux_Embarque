@@ -1,4 +1,7 @@
-/* Ce programme est un module Linux qui crée un chenillard en utilisant un timer. Il utilise les fonctions standard de la bibliothèque Linux pour créer un répertoire de procédure et un fichier de procédure, et pour configurer et gérer un timer qui met à jour les LEDs en utilisant les fonctions de sortie standard de Linux. Il utilise également les fonctions de module Linux pour enregistrer et supprimer le module lors de son chargement et de son déchargement. */
+/* Ce programme est un module Linux qui crée un chenillard en utilisant un timer. 
+Il utilise les fonctions standard de la bibliothèque Linux pour créer un répertoire de procédure et un fichier de procédure, et pour configurer et gérer un timer qui 
+met à jour les LEDs en utilisant les fonctions de sortie standard de Linux. 
+Il utilise également les fonctions de module Linux pour enregistrer et supprimer le module lors de son chargement et de son déchargement. */
 
 #include <linux/module.h>
 #include <linux/kernel.h>
