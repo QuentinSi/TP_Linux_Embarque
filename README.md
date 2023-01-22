@@ -391,9 +391,10 @@ noyau sur la partition de boot, et qui lui indique quels sont les
 périphériques à sa disposition. Nous voulons accéder aux LED en direct.
 Or le device-tree étant déjà configuré, ces leds sont déjà utilisées par
 les drivers fournis par Altera, ce qui nous empêche d'y accéder. Pour
-éviter cela, 2 possibilités : --- Modifier le fichier dts existant ; ---
-Recréer son propre design avec QSYS, puis ce qui va générer un nouveau
-fichier dts.
+éviter cela, 2 possibilités :  
+
+--- Modifier le fichier dts existant ;  
+--- Recréer son propre design avec QSYS, puis ce qui va générer un nouveau fichier dts.
 
 Pour notre part, nous utilisons la première méthode.
 
@@ -446,7 +447,9 @@ Ensea est bien présent dans un bridge :
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image34.png)  
+
 Vérification dans le bridge :  
+
 ![Une image contenant texte Description générée
 automatiquement](./media/image35.png)  
 
