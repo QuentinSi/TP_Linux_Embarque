@@ -379,7 +379,7 @@ leds de la carte VEEK mais juste faire l'affichage pour voir si cette
 Les leds s'allument bien comme il faut et nous pouvons régler la vitesse
 d'affichage des leds avec un paramètre.
 
-## TP3 : Device tree
+## TP3 : Device tree  
 
 L'objectif de ce TP est de définir son propre périphérique, et de
 programmer un module qui identifie la présence du périphérique et se
