@@ -348,7 +348,7 @@ erreurs lors de l'exécution des 2 lignes make.
 Nous avons donc copier dans un dossier pour faire le module hello.c. Ce module est disponible dans le dossier TP2 sous le nom hello.c  
 
 Une fois le code récupéré et placé dans un dossier, nous avons modifier
-le makefile pour que celui-ci fonctionne dans notre situation :
+le makefile (exemple de makefile dans le dossier TP3) pour que celui-ci fonctionne dans notre situation :
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image31.png)  
