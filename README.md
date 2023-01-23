@@ -211,7 +211,7 @@ il n'est pas possible d'écrire facilement dans un registre comme on en a
 l'habitude. Il faut donc remapper la mémoire pour demander à l'os de
 nous fournir une adresse virtuelle.
 
-On utilise donc la fonction mmap(), nous savons que le registre du GPIO
+On utilise donc la fonction mmap() (fichier register.c), nous savons que le registre du GPIO
 connecté aux LED est disponible à l'adresse : 0xFF203000 :
 
 ![Une image contenant texte Description générée
@@ -549,3 +549,7 @@ nous faisons clignoter les leds).
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image42.png)  
+
+## Conclusion 
+
+Toutes les séances de TP nous ont permis de pratiquer tout ce que l'on avait vu en cours comme la compilation croisée ou encore la création de module avec modifications ou lecture dans des registres. Nous avons eu le temps de finir le module final et de le tester pour vérifier que celui-ci fonctionnait correctement.
