@@ -3,7 +3,7 @@
 
 <div align="center">
 
- <h1 align="center">TP Linux embarqués :</h3>
+ <h1 align="center">TP Linux embarqué :</h3>
 </div>
 
 <div>
