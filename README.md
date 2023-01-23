@@ -358,8 +358,11 @@ jour du chemin de notre noyau et l'ajout d'un flags_module. Nous pouvons
 également voir la commande scp quoi nous permet de transferer un fichier
 de notre machine virtuellle à la carte VEEK.
 
-Voici le screen qui montre que notre hello word fonctionne bien sur
+Voici la capture d'écran qui montre que notre hello word fonctionne bien sur
 notre SOC.
+
+![Une image contenant texte Description générée
+automatiquement](./media/hello.PNG) 
 
 ### Chenillard Yes :
 
